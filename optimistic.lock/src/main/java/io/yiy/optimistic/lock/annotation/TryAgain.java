@@ -1,0 +1,38 @@
+/*
+ * Copyright (c) 2014 - 2017. MOBCB Technology Co.,Ltd. All rights Reserved.
+ */
+
+package io.yiy.optimistic.lock.annotation;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+/**
+ * TryAgain: 是否重试注解.（仅适用于完整操作，事务中间操作一般无效）
+ *
+ * @author shen.zhibing
+ * @version 1.00
+ * @since 2017-04-14 11:02
+ */
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface TryAgain {
+
+    /**
+     * 是否重试
+     */
+    boolean confirm() default false;
+
+    /**
+     * 最大重试次数
+     */
+    int maxAttempts() default 3;
+
+    /**
+     * 重试异常类型
+     */
+    Class tryAgainFor() default Exception.class;
+
+}
