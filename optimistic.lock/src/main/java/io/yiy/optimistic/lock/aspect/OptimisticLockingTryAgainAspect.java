@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014 - 2017. MOBCB Technology Co.,Ltd. All rights Reserved.
+ * Copyright (c) YIY.IO. All rights Reserved.
  */
 
 package io.yiy.optimistic.lock.aspect;
