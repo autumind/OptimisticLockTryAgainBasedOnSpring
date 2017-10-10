@@ -1,10 +1,10 @@
 /*
- * Copyright (c) YIY.IO. All rights Reserved.
+ * Copyright (c) 2014 - 2017. MOBCB Technology Co.,Ltd. All rights Reserved.
  */
 
-package io.yiy.throwable.retry.aspect;
+package com.iylyi.throwable.retry.aspect;
 
-import io.yiy.throwable.retry.annotation.Retry;
+import com.iylyi.throwable.retry.annotation.Retry;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.aspectj.lang.ProceedingJoinPoint;

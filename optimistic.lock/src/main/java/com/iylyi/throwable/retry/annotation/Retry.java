@@ -1,8 +1,8 @@
 /*
- * Copyright (c) YIY.IO. All rights Reserved.
+ * Copyright (c) 2014 - 2017. MOBCB Technology Co.,Ltd. All rights Reserved.
  */
 
-package io.yiy.throwable.retry.annotation;
+package com.iylyi.throwable.retry.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
