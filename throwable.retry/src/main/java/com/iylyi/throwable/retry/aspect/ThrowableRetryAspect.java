@@ -35,10 +35,10 @@ public class ThrowableRetryAspect {
      */
     public static final Log LOGGER = LogFactory.getLog(ThrowableRetryAspect.class);
 
-    @Value("${retry.confirm:null}")
+    @Value("${retry.confirm:#{null}}")
     private String confirm;
 
-    @Value("${retry.max.attempts:null}")
+    @Value("${retry.max.attempts:#{null}}")
     private String maxAttempts;
 
     /**
