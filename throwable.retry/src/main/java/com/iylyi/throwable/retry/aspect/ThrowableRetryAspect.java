@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014 - 2017. MOBCB Technology Co.,Ltd. All rights Reserved.
+ * Copyright (c) 2017. iylyl.com. All rights Reserved.
  */
 
 package com.iylyi.throwable.retry.aspect;
@@ -21,7 +21,7 @@ import org.springframework.stereotype.Component;
  * &nbsp;&nbsp;&nbsp;&nbsp;2. retry.max.attempts({@link Integer})<br/>
  * <small>注：配置文件是以 @{@link Value} 方式注入，如果想使用配置文件，需要注意配置文件是否加载到Spring中。<small/>
  *
- * @author shen.zhibing
+ * @author iylyi
  * @version 1.00
  * @since 2017-04-14 11:09
  */

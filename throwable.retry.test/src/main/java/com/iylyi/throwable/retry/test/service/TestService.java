@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014 - 2017. MOBCB Technology Co.,Ltd. All rights Reserved.
+ * Copyright (c) 2017. iylyl.com. All rights Reserved.
  */
 
 package com.iylyi.throwable.retry.test.service;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 /**
  * TestService: Description of TestService.
  *
- * @author shen.zhibing
+ * @author iylyi
  * @version 1.00
  * @since 2017-10-10 19:32
  */

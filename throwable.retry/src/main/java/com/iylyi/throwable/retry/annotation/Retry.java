@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014 - 2017. MOBCB Technology Co.,Ltd. All rights Reserved.
+ * Copyright (c) 2017. iylyl.com. All rights Reserved.
  */
 
 package com.iylyi.throwable.retry.annotation;
@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
 /**
  * Retry: 是否重试注解.（仅适用于完整操作，事务中间操作一般无效）
  *
- * @author shen.zhibing
+ * @author iylyi
  * @version 1.00
  * @since 2017-04-14 11:02
  */
