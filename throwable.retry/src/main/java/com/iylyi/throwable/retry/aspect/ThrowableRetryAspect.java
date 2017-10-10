@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2017. iylyl.com. All rights Reserved.
+ * Copyright (c) 2017. iylyi.com. All rights Reserved.
  */
 
 package com.iylyi.throwable.retry.aspect;
