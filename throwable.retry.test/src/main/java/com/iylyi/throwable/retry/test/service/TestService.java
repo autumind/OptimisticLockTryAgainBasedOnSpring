@@ -2,7 +2,7 @@
  * Copyright (c) 2014 - 2017. MOBCB Technology Co.,Ltd. All rights Reserved.
  */
 
-package com.iylyi.throwable.retry.test;
+package com.iylyi.throwable.retry.test.service;
 
 import com.iylyi.throwable.retry.annotation.Retry;
 import org.springframework.stereotype.Service;

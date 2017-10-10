@@ -4,6 +4,7 @@
 
 package com.iylyi.throwable.retry.test;
 
+import com.iylyi.throwable.retry.test.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
