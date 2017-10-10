@@ -1,2 +1,2 @@
 # ThrowableRetry
-Logic retry when exception occur (based on Spring aspect).
+Retry business logic when  exception occur (based on Spring aspect).
