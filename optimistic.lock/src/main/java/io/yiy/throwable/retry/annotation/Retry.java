@@ -2,7 +2,7 @@
  * Copyright (c) 2014 - 2017. MOBCB Technology Co.,Ltd. All rights Reserved.
  */
 
-package io.yiy.optimistic.lock.annotation;
+package io.yiy.throwable.retry.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -10,7 +10,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * TryAgain: 是否重试注解.（仅适用于完整操作，事务中间操作一般无效）
+ * Retry: 是否重试注解.（仅适用于完整操作，事务中间操作一般无效）
  *
  * @author shen.zhibing
  * @version 1.00
@@ -18,7 +18,7 @@ import java.lang.annotation.Target;
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface TryAgain {
+public @interface Retry {
 
     /**
      * 是否重试
@@ -33,6 +33,6 @@ public @interface TryAgain {
     /**
      * 重试异常类型
      */
-    Class tryAgainFor() default Exception.class;
+    Class retryFor() default Exception.class;
 
 }

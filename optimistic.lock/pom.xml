@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.yiy.optimistic.lock</groupId>
-    <artifactId>optimistic.lock</artifactId>
-    <packaging>war</packaging>
+    <groupId>io.yiy.throwable.retry</groupId>
+    <artifactId>throwable.retry</artifactId>
+    <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>optimistic.lock Maven Webapp</name>
+    <name>throwable.retry Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
@@ -36,6 +36,6 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>optimistic.lock</finalName>
+        <finalName>throwable.retry</finalName>
     </build>
 </project>
