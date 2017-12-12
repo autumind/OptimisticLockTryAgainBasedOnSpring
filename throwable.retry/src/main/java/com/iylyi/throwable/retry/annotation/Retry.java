@@ -35,4 +35,9 @@ public @interface Retry {
      */
     Class retryFor() default Exception.class;
 
+    /**
+     * 不包含异常
+     */
+    Class[] excludes() default {};
+
 }
