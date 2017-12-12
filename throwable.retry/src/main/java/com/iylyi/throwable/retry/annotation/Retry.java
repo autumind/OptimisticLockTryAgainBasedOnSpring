@@ -33,11 +33,11 @@ public @interface Retry {
     /**
      * 重试异常类型
      */
-    Class when() default Exception.class;
+    Class<? extends Throwable> when() default Exception.class;
 
     /**
      * 不包含异常
      */
-    Class[] excludes() default {};
+    Class<? extends Throwable>[] excludes() default {};
 
 }
