@@ -83,7 +83,7 @@ public class ThrowableRetryAspect {
                     }
                 }
 
-                if (anno.retryFor().isInstance(ta) && !excluded) {
+                if (anno.when().isInstance(ta) && !excluded) {
                     if (retry && attempts <= maxAttempts) { // 确认重试且重试次数小于最大重试次数时进行任务重试，否则直接抛出异常
                         LOGGER.info("【" + pjp.getSignature().toString() + "】任务执行第(" + attempts + "/" + maxAttempts + ")次重试...");
                     } else {

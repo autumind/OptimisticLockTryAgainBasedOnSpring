@@ -33,7 +33,7 @@ public @interface Retry {
     /**
      * 重试异常类型
      */
-    Class retryFor() default Exception.class;
+    Class when() default Exception.class;
 
     /**
      * 不包含异常
